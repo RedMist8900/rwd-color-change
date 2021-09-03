@@ -1,31 +1,43 @@
 @media screen and (max-width: 960px) {	
    .box{
       background: blue;
+   }
+
+   .box::after{
       display: flex;
       align-items: center;
       justify-content: center;
       content: "Bredde: 960px";
       color: white;
+      height: inherit;
    }
 }
 
 @media screen and (max-width: 768px) {	
    .box{
       background: green;
+   }
+
+   .box::after{
       display: flex;
       align-items: center;
       justify-content: center;
       content: "Bredde: 768px";
+      height: inherit;
    }
 }
 
  @media screen and (max-width: 480px) {	
    .box{
       background: orange;
+   }
+
+   .box::after{
       display: flex;
       align-items: center;
       justify-content: center;
       content: "Bredde: 480px";
+      height: inherit;
    }
 }
  
